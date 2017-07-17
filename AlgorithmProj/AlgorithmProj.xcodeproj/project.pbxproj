@@ -11,6 +11,7 @@
 		687795381F1C58890094BC51 /* CustomQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 687795361F1C58890094BC51 /* CustomQueue.cpp */; };
 		687795441F1C6A980094BC51 /* ListNodeDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 687795421F1C6A980094BC51 /* ListNodeDemo.cpp */; };
 		687795471F1C8ECC0094BC51 /* BinaryTreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 687795451F1C8ECC0094BC51 /* BinaryTreeNode.cpp */; };
+		6877954A1F1C9E6E0094BC51 /* SortDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 687795481F1C9E6E0094BC51 /* SortDemo.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		687795431F1C6A980094BC51 /* ListNodeDemo.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ListNodeDemo.hpp; sourceTree = "<group>"; };
 		687795451F1C8ECC0094BC51 /* BinaryTreeNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeNode.cpp; sourceTree = "<group>"; };
 		687795461F1C8ECC0094BC51 /* BinaryTreeNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeNode.hpp; sourceTree = "<group>"; };
+		687795481F1C9E6E0094BC51 /* SortDemo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortDemo.cpp; sourceTree = "<group>"; };
+		687795491F1C9E6E0094BC51 /* SortDemo.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SortDemo.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				6877953E1F1C688D0094BC51 /* Sort */,
+				687795481F1C9E6E0094BC51 /* SortDemo.cpp */,
+				687795491F1C9E6E0094BC51 /* SortDemo.hpp */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				687795381F1C58890094BC51 /* CustomQueue.cpp in Sources */,
+				6877954A1F1C9E6E0094BC51 /* SortDemo.cpp in Sources */,
 				687795301F1C58620094BC51 /* main.cpp in Sources */,
 				687795471F1C8ECC0094BC51 /* BinaryTreeNode.cpp in Sources */,
 				687795441F1C6A980094BC51 /* ListNodeDemo.cpp in Sources */,
