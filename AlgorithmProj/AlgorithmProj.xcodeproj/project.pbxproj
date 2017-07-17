@@ -28,6 +28,9 @@
 		6877952F1F1C58620094BC51 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		687795361F1C58890094BC51 /* CustomQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CustomQueue.cpp; sourceTree = "<group>"; };
 		687795371F1C58890094BC51 /* CustomQueue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CustomQueue.hpp; sourceTree = "<group>"; };
+		6877953C1F1C68700094BC51 /* BinaryTree */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BinaryTree; sourceTree = "<group>"; };
+		6877953D1F1C68820094BC51 /* ListNode */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ListNode; sourceTree = "<group>"; };
+		6877953E1F1C688D0094BC51 /* Sort */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sort; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +63,38 @@
 		6877952E1F1C58620094BC51 /* AlgorithmProj */ = {
 			isa = PBXGroup;
 			children = (
+				687795391F1C68320094BC51 /* BinaryTree */,
+				6877953A1F1C68320094BC51 /* ListNode */,
+				6877953B1F1C68320094BC51 /* Sort */,
 				6877952F1F1C58620094BC51 /* main.cpp */,
 				687795361F1C58890094BC51 /* CustomQueue.cpp */,
 				687795371F1C58890094BC51 /* CustomQueue.hpp */,
 			);
 			path = AlgorithmProj;
+			sourceTree = "<group>";
+		};
+		687795391F1C68320094BC51 /* BinaryTree */ = {
+			isa = PBXGroup;
+			children = (
+				6877953C1F1C68700094BC51 /* BinaryTree */,
+			);
+			path = BinaryTree;
+			sourceTree = "<group>";
+		};
+		6877953A1F1C68320094BC51 /* ListNode */ = {
+			isa = PBXGroup;
+			children = (
+				6877953D1F1C68820094BC51 /* ListNode */,
+			);
+			path = ListNode;
+			sourceTree = "<group>";
+		};
+		6877953B1F1C68320094BC51 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				6877953E1F1C688D0094BC51 /* Sort */,
+			);
+			path = Sort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
