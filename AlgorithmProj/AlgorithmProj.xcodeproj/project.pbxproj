@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		687795301F1C58620094BC51 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6877952F1F1C58620094BC51 /* main.cpp */; };
 		687795381F1C58890094BC51 /* CustomQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 687795361F1C58890094BC51 /* CustomQueue.cpp */; };
+		687795441F1C6A980094BC51 /* ListNodeDemo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 687795421F1C6A980094BC51 /* ListNodeDemo.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		6877953C1F1C68700094BC51 /* BinaryTree */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BinaryTree; sourceTree = "<group>"; };
 		6877953D1F1C68820094BC51 /* ListNode */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ListNode; sourceTree = "<group>"; };
 		6877953E1F1C688D0094BC51 /* Sort */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sort; sourceTree = "<group>"; };
+		687795421F1C6A980094BC51 /* ListNodeDemo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ListNodeDemo.cpp; sourceTree = "<group>"; };
+		687795431F1C6A980094BC51 /* ListNodeDemo.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ListNodeDemo.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				6877953D1F1C68820094BC51 /* ListNode */,
+				687795421F1C6A980094BC51 /* ListNodeDemo.cpp */,
+				687795431F1C6A980094BC51 /* ListNodeDemo.hpp */,
 			);
 			path = ListNode;
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 			files = (
 				687795381F1C58890094BC51 /* CustomQueue.cpp in Sources */,
 				687795301F1C58620094BC51 /* main.cpp in Sources */,
+				687795441F1C6A980094BC51 /* ListNodeDemo.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

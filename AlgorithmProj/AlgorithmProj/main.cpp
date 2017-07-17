@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include "CustomQueue.hpp"
+#include "ListNodeDemo.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -20,6 +21,24 @@ int main(int argc, const char * argv[]) {
 //        queue->addToTail(array[index]);
 //    }
 //    queue->deleteHead();
+    ListNode *node1 = new ListNode();
+    node1->m_nValue = 1;
+    
+    ListNode *node2 = new ListNode();
+    node2->m_nValue = 2;
+    
+    ListNode *node3 = new ListNode();
+    node3->m_nValue = 3;
+    
+    ListNode *node4 = new ListNode();
+    node4->m_nValue = 4;
+    
+    node1->m_pNext = node2;
+    node2->m_pNext = node3;
+    node3->m_pNext = node4;
+    
+    ListNodeDemo *demo = new ListNodeDemo();
+    demo->printListReversingly_Recursively(node1);
     
     return 0;
 }
