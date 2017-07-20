@@ -10,19 +10,20 @@
 #include "CustomQueue.hpp"
 #include "ListNodeDemo.hpp"
 #include "SortDemo.hpp"
+#include "BitOperation.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
 //    CustomQueue<int> *queue = new CustomQueue<int>();
-    int array[] = {1,3,2,6,5,4,17,19,8,7,9,50,43};
-    SortDemo *demo = new SortDemo();
-    demo->quick_sort(array, 0, 12);
-    for(int i = 0;i<13;++i)
-    {
-        printf("%d\n",array[i]);
-    }
+//    int array[] = {1,3,2,6,5,4,17,19,8,7,9,50,43};
+//    SortDemo *demo = new SortDemo();
+//    demo->quick_sort(array, 0, 12);
+//    for(int i = 0;i<13;++i)
+//    {
+//        printf("%d\n",array[i]);
+//    }
     
 //    for(int index = 0;index < 6; ++index)
 //    {
@@ -47,6 +48,9 @@ int main(int argc, const char * argv[]) {
 //    
 //    ListNodeDemo *demo = new ListNodeDemo();
 //    demo->printListReversingly_Recursively(node1);
+    BitOperation *bo = new BitOperation();
+    cout << bo->numberOf1(10) << endl;
+    cout << bo->numberOfChangeValue(10, 9) << endl;
     
     return 0;
 }

@@ -17,6 +17,9 @@ class SortDemo {
 public:
     void quick_sort(int arr[], const int left, const int right);
     void Qsort(int a[], int low, int high);
+    
+//    void merge_sort(int* data,int a,int b,int length,int n);
+//    void mergeSort(int* data, int n);
 };
 
 #endif /* SortDemo_hpp */
