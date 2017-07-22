@@ -38,3 +38,30 @@ void ListNodeDemo::printListReversingly_Recursively(ListNode *pHead)
         printf("%d",pHead->m_nValue);
     }
 }
+
+ListNode* ListNodeDemo::findKthToTail(ListNode *pHead, unsigned int k)
+{
+    if (pHead == NULL && pHead) {
+        return NULL;
+    }
+    
+    ListNode* retNode = NULL;
+    
+    ListNode *firstPointer = pHead;
+    ListNode *secondPointer = pHead;
+    
+    unsigned int nodeCount = 1;
+    while (firstPointer->m_pNext != NULL)
+    {
+        firstPointer = firstPointer->m_pNext;
+        if (nodeCount > k - 1) {
+            secondPointer = secondPointer->m_pNext;
+        }
+        nodeCount++;
+    }
+    
+    if (nodeCount >= k) {
+        retNode = secondPointer;
+    }
+    return retNode;
+}

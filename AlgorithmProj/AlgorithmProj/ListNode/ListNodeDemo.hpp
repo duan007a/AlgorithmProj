@@ -25,6 +25,8 @@ public:
     
     // 采用递归的方式逆序打印链表各个节点数据
     void printListReversingly_Recursively(ListNode* pHead);
+    
+    ListNode* findKthToTail(ListNode *pHead, unsigned int k);
 };
 
 #endif /* ListNodeDemo_hpp */
