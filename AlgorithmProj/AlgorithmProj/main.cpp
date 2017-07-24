@@ -47,14 +47,17 @@ int main(int argc, const char * argv[]) {
     node3->m_pNext = node4;
 //
     ListNodeDemo *demo = new ListNodeDemo();
+    ListNode *newHead = demo->reverseList_Iteratively(node1);
+    cout << newHead->m_nValue << endl;
+    
 //    demo->printListReversingly_Recursively(node1);
 //    BitOperation *bo = new BitOperation();
 //    cout << bo->numberOf1(10) << endl;
 //    cout << bo->numberOfChangeValue(10, 9) << endl;
-    ListNode *kNode = demo->findKthToTail(node1, 5);
-    if (kNode != NULL) {
-        cout << kNode->m_nValue << endl;
-    }
+//    ListNode *kNode = demo->findKthToTail(node1, 5);
+//    if (kNode != NULL) {
+//        cout << kNode->m_nValue << endl;
+//    }
     
     return 0;
 }

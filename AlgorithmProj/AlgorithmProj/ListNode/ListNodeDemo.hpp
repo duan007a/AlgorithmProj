@@ -27,6 +27,8 @@ public:
     void printListReversingly_Recursively(ListNode* pHead);
     
     ListNode* findKthToTail(ListNode *pHead, unsigned int k);
+    
+    ListNode* reverseList_Iteratively(ListNode* pHead);
 };
 
 #endif /* ListNodeDemo_hpp */

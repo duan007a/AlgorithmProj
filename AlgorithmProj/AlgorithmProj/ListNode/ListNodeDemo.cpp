@@ -65,3 +65,20 @@ ListNode* ListNodeDemo::findKthToTail(ListNode *pHead, unsigned int k)
     }
     return retNode;
 }
+
+ListNode* ListNodeDemo::reverseList_Iteratively(ListNode* pHead)
+{
+    if (pHead == NULL || pHead->m_pNext == NULL)
+    {
+        return pHead;
+    }
+    
+    ListNode *preNode = NULL;
+    while (pHead != NULL) {
+        ListNode *tmpNode = pHead->m_pNext;
+        pHead->m_pNext = preNode;
+        preNode = pHead;
+        pHead = tmpNode;
+    }
+    return preNode;
+}
