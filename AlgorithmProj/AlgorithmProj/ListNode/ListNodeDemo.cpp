@@ -41,7 +41,7 @@ void ListNodeDemo::printListReversingly_Recursively(ListNode *pHead)
 
 ListNode* ListNodeDemo::findKthToTail(ListNode *pHead, unsigned int k)
 {
-    if (pHead == NULL && pHead) {
+    if (pHead == NULL && k == 0) {
         return NULL;
     }
     
