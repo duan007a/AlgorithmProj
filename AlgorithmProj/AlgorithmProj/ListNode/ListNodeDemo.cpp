@@ -66,19 +66,28 @@ ListNode* ListNodeDemo::findKthToTail(ListNode *pHead, unsigned int k)
     return retNode;
 }
 
-ListNode* ListNodeDemo::reverseList_Iteratively(ListNode* pHead)
+ListNode* ListNodeDemo::reverseList_Iteratively(ListNode *pHead)
 {
-    if (pHead == NULL || pHead->m_pNext == NULL)
-    {
-        return pHead;
-    }
-    
     ListNode *preNode = NULL;
-    while (pHead != NULL) {
-        ListNode *tmpNode = pHead->m_pNext;
+    while (pHead != NULL)
+    {
+        ListNode *tmp = pHead->m_pNext;
         pHead->m_pNext = preNode;
         preNode = pHead;
-        pHead = tmpNode;
+        pHead = tmp;
     }
     return preNode;
+}
+
+ListNode* ListNodeDemo::reverseList_Recursively(ListNode *pHead)
+{
+    if(pHead == NULL || pHead->m_pNext == NULL)
+        return pHead;
+    
+    ListNode *node = reverseList_Recursively(pHead->m_pNext);
+    pHead->m_pNext->m_pNext = pHead;
+    pHead->m_pNext = NULL;
+    
+    return node;
+>>>>>>> 单链表逆序
 }

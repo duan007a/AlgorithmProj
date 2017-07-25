@@ -26,9 +26,14 @@ public:
     // 采用递归的方式逆序打印链表各个节点数据
     void printListReversingly_Recursively(ListNode* pHead);
     
+    // 找到单链表中的倒数第k个结点
     ListNode* findKthToTail(ListNode *pHead, unsigned int k);
     
-    ListNode* reverseList_Iteratively(ListNode* pHead);
+    // 单链表逆序(循环)
+    ListNode* reverseList_Iteratively(ListNode *pHead);
+    
+    // 单链表逆序(递归)
+    ListNode* reverseList_Recursively(ListNode *pHead);
 };
 
 #endif /* ListNodeDemo_hpp */
