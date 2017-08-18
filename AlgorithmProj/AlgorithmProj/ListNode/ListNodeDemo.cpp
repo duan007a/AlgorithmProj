@@ -89,5 +89,4 @@ ListNode* ListNodeDemo::reverseList_Recursively(ListNode *pHead)
     pHead->m_pNext = NULL;
     
     return node;
->>>>>>> 单链表逆序
 }
